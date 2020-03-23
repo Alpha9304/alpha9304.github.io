@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+    </head>
+    <body>
+        <table style="width:100%">
+            <thead>
+                <tr>
+                    <th>Country</th>
+                    <th>Total Cases</th>
+                    <th>New Cases</th>
+                    <th>Total Deaths</th>
+                    <th>New Deaths</th>
+                    <th>Total Recovered</th>
+                    <th>Active Cases</th>
+                    <th>Serious, Critical</th>
+                    <th>Total Cases/ 1 M Pop</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>
+                        <!--Doesn't work either'
+                                <?php
+                                echo file_get_contents("test.txt");
+                                 ?>
+                                -->
+                        <?php
+                        $file = fopen("country_name0.txt","r");
+                        echo fgetss($file);
+                        fclose($file);
+                        ?>
+                    </th>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+
+
+    </body>
+</html>
