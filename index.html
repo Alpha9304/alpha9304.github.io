@@ -1,0 +1,1624 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Africa-O-Meter</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        table {
+            table-layout: fixed;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th {
+            background-color: #e6b800;
+            color: black;
+        }
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+        
+        //run the scrape file
+        <?php 
+
+            $command = escapeshellcmd('/usr/custom/Africa_Ometer_scrape.py');
+            $output = shell_exec($command);
+            echo $output;
+        ?>
+
+</head>
+
+
+
+    <body onload="Africa_Ometer_scrape.py">
+        <h1>Africa-O-Meter</h1>
+        <table style="width: 95%" border="1" align="center">
+            <thead>
+                <tr>
+                    <th><div class="header">Country</div></th>
+                    <th><div class="header">Total Cases</div></th>
+                    <th><div class="header">New Cases</div></th>
+                    <th><div class="header">Total Deaths</div></th>
+                    <th><div class="header">New Deaths</div></th>
+                    <th><div class="header">Total Recovered</div></th>
+                    <th><div class="header">Active Cases</div></th>
+                    <th><div class="header">Serious, Critical</div></th>
+                    <th><div class="header">Total Cases/ 1 M Pop</div></th>
+                    <th><div class="header">Deaths/ 1 M Pop</div></th>
+                    <th><div class="header">Total Tests</div></th>
+                    <th><div class="header">Tests / 1 M Pop</div></th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr>
+                    <th>
+                        <p class="center"><iframe src="country_name0.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </th>
+                    <td>
+                        <p class="center"><iframe src="total_cases0.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_cases0.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_deaths0.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_deaths0.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_recovered0.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="active_cases0.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="serious_critical0.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tot_cases_1m_pop0.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="deaths_1m_pop0.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_tests0.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tests_1m_pop0.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <p><iframe src="country_name1.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </th>
+                    <td>
+                        <p class="center"><iframe src="total_cases1.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_cases1.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_deaths1.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_deaths1.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_recovered1.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="active_cases1.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="serious_critical1.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tot_cases_1m_pop1.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="deaths_1m_pop1.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_tests1.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tests_1m_pop1.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <p class="center"><iframe src="country_name2.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </th>
+                    <td>
+                        <p class="center"><iframe src="total_cases2.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_cases2.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_deaths2.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_deaths2.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_recovered2.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="active_cases2.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="serious_critical2.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tot_cases_1m_pop2.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="deaths_1m_pop2.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_tests2.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tests_1m_pop2.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <p><iframe src="country_name3.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </th>
+                    <td>
+                        <p class="center"><iframe src="total_cases3.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_cases3.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_deaths3.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_deaths3.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_recovered3.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="active_cases3.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="serious_critical3.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tot_cases_1m_pop3.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="deaths_1m_pop3.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_tests3.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tests_1m_pop3.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <p class="center"><iframe src="country_name4.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </th>
+                    <td>
+                        <p class="center"><iframe src="total_cases4.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_cases4.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_deaths4.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_deaths4.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_recovered4.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="active_cases4.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="serious_critical4.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tot_cases_1m_pop4.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="deaths_1m_pop4.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_tests4.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tests_1m_pop4.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <p><iframe src="country_name5.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </th>
+                    <td>
+                        <p class="center"><iframe src="total_cases5.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_cases5.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_deaths5.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_deaths5.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_recovered5.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="active_cases5.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="serious_critical5.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tot_cases_1m_pop5.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="deaths_1m_pop5.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_tests5.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tests_1m_pop5.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <p class="center"><iframe src="country_name6.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </th>
+                    <td>
+                        <p class="center"><iframe src="total_cases6.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_cases6.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_deaths6.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_deaths6.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_recovered6.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="active_cases6.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="serious_critical6.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tot_cases_1m_pop6.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="deaths_1m_pop6.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_tests6.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tests_1m_pop6.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <p><iframe src="country_name7.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </th>
+                    <td>
+                        <p class="center"><iframe src="total_cases7.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_cases7.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_deaths7.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_deaths7.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_recovered7.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="active_cases7.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="serious_critical7.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tot_cases_1m_pop7.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="deaths_1m_pop7.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_tests7.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tests_1m_pop7.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <p class="center"><iframe src="country_name8.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </th>
+                    <td>
+                        <p class="center"><iframe src="total_cases8.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_cases8.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_deaths8.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_deaths8.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_recovered8.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="active_cases8.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="serious_critical8.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tot_cases_1m_pop8.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="deaths_1m_pop8.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_tests8.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tests_1m_pop8.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <p><iframe src="country_name9.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </th>
+                    <td>
+                        <p class="center"><iframe src="total_cases9.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_cases9.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_deaths9.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_deaths9.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_recovered9.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="active_cases9.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="serious_critical9.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tot_cases_1m_pop9.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="deaths_1m_pop9.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_tests9.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tests_1m_pop9.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <p class="center"><iframe src="country_name10.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </th>
+                    <td>
+                        <p class="center"><iframe src="total_cases10.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_cases10.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_deaths10.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_deaths10.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_recovered10.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="active_cases10.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="serious_critical10.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tot_cases_1m_pop10.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="deaths_1m_pop10.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_tests10.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tests_1m_pop10.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <p><iframe src="country_name11.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </th>
+                    <td>
+                        <p class="center"><iframe src="total_cases11.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_cases11.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_deaths11.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_deaths11.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_recovered11.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="active_cases11.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="serious_critical11.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tot_cases_1m_pop11.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="deaths_1m_pop11.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_tests11.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tests_1m_pop11.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <p class="center"><iframe src="country_name12.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </th>
+                    <td>
+                        <p class="center"><iframe src="total_cases12.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_cases12.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_deaths12.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_deaths12.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_recovered12.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="active_cases12.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="serious_critical12.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tot_cases_1m_pop12.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="deaths_1m_pop12.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_tests12.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tests_1m_pop12.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <p><iframe src="country_name13.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </th>
+                    <td>
+                        <p class="center"><iframe src="total_cases13.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_cases13.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_deaths13.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_deaths13.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_recovered13.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="active_cases13.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="serious_critical13.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tot_cases_1m_pop13.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="deaths_1m_pop13.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_tests13.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tests_1m_pop13.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <p class="center"><iframe src="country_name14.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </th>
+                    <td>
+                        <p class="center"><iframe src="total_cases14.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_cases14.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_deaths14.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_deaths14.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_recovered14.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="active_cases14.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="serious_critical14.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tot_cases_1m_pop14.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="deaths_1m_pop14.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_tests14.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tests_1m_pop14.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <p><iframe src="country_name15.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </th>
+                    <td>
+                        <p class="center"><iframe src="total_cases15.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_cases15.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_deaths15.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_deaths15.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_recovered15.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="active_cases15.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="serious_critical15.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tot_cases_1m_pop15.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="deaths_1m_pop15.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_tests15.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tests_1m_pop15.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <p class="center"><iframe src="country_name16.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </th>
+                    <td>
+                        <p class="center"><iframe src="total_cases16.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_cases16.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_deaths16.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_deaths16.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_recovered16.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="active_cases16.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="serious_critical16.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tot_cases_1m_pop16.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="deaths_1m_pop16.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_tests16.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tests_1m_pop16.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <p><iframe src="country_name17.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </th>
+                    <td>
+                        <p class="center"><iframe src="total_cases17.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_cases17.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_deaths17.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_deaths17.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_recovered17.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="active_cases17.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="serious_critical17.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tot_cases_1m_pop17.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="deaths_1m_pop17.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_tests17.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tests_1m_pop17.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <p class="center"><iframe src="country_name18.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </th>
+                    <td>
+                        <p class="center"><iframe src="total_cases18.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_cases18.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_deaths18.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_deaths18.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_recovered18.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="active_cases18.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="serious_critical18.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tot_cases_1m_pop18.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="deaths_1m_pop18.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_tests18.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tests_1m_pop18.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <p><iframe src="country_name19.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </th>
+                    <td>
+                        <p class="center"><iframe src="total_cases19.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_cases19.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_deaths19.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_deaths19.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_recovered19.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="active_cases19.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="serious_critical19.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tot_cases_1m_pop19.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="deaths_1m_pop19.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_tests19.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tests_1m_pop19.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <p class="center"><iframe src="country_name20.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </th>
+                    <td>
+                        <p class="center"><iframe src="total_cases20.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_cases20.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_deaths20.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_deaths20.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_recovered20.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="active_cases20.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="serious_critical20.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tot_cases_1m_pop20.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="deaths_1m_pop20.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_tests20.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tests_1m_pop20.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <p><iframe src="country_name21.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </th>
+                    <td>
+                        <p class="center"><iframe src="total_cases21.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_cases21.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_deaths21.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_deaths21.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_recovered21.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="active_cases21.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="serious_critical21.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tot_cases_1m_pop21.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="deaths_1m_pop21.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_tests21.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tests_1m_pop21.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <p class="center"><iframe src="country_name22.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </th>
+                    <td>
+                        <p class="center"><iframe src="total_cases22.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_cases22.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_deaths22.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_deaths22.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_recovered22.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="active_cases22.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="serious_critical22.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tot_cases_1m_pop22.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="deaths_1m_pop22.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_tests22.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tests_1m_pop22.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <p><iframe src="country_name23.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </th>
+                    <td>
+                        <p class="center"><iframe src="total_cases23.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_cases23.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_deaths23.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_deaths23.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_recovered23.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="active_cases23.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="serious_critical23.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tot_cases_1m_pop23.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="deaths_1m_pop23.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_tests23.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tests_1m_pop23.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <p class="center"><iframe src="country_name24.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </th>
+                    <td>
+                        <p class="center"><iframe src="total_cases24.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_cases24.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_deaths24.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_deaths24.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_recovered24.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="active_cases24.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="serious_critical24.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tot_cases_1m_pop24.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="deaths_1m_pop24.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_tests24.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tests_1m_pop24.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <p><iframe src="country_name25.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </th>
+                    <td>
+                        <p class="center"><iframe src="total_cases25.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_cases25.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_deaths25.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_deaths25.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_recovered25.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="active_cases25.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="serious_critical25.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tot_cases_1m_pop25.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="deaths_1m_pop25.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_tests25.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tests_1m_pop25.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+
+                </tr>
+                <tr>
+                    <th>
+                        <p class="center"><iframe src="country_name26.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </th>
+                    <td>
+                        <p class="center"><iframe src="total_cases26.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_cases26.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_deaths26.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_deaths26.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_recovered26.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="active_cases26.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="serious_critical26.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tot_cases_1m_pop26.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="deaths_1m_pop26.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_tests26.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tests_1m_pop26.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <p><iframe src="country_name27.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </th>
+                    <td>
+                        <p class="center"><iframe src="total_cases27.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_cases27.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_deaths27.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_deaths27.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_recovered27.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="active_cases27.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="serious_critical27.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tot_cases_1m_pop27.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="deaths_1m_pop27.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_tests27.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tests_1m_pop27.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <p class="center"><iframe src="country_name28.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </th>
+                    <td>
+                        <p class="center"><iframe src="total_cases28.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_cases28.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_deaths28.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_deaths28.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_recovered28.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="active_cases28.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="serious_critical28.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tot_cases_1m_pop28.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="deaths_1m_pop28.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_tests28.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tests_1m_pop28.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <p><iframe src="country_name29.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </th>
+                    <td>
+                        <p class="center"><iframe src="total_cases29.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_cases29.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_deaths29.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_deaths29.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_recovered29.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="active_cases29.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="serious_critical29.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tot_cases_1m_pop29.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="deaths_1m_pop29.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_tests29.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tests_1m_pop29.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <p class="center"><iframe src="country_name30.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </th>
+                    <td>
+                        <p class="center"><iframe src="total_cases30.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_cases30.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_deaths30.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_deaths30.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_recovered30.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="active_cases30.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="serious_critical30.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tot_cases_1m_pop30.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="deaths_1m_pop30.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_tests30.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tests_1m_pop30.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <p><iframe src="country_name31.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </th>
+                    <td>
+                        <p class="center"><iframe src="total_cases31.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_cases31.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_deaths31.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_deaths31.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_recovered31.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="active_cases31.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="serious_critical31.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tot_cases_1m_pop31.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="deaths_1m_pop31.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_tests31.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tests_1m_pop31.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <p class="center"><iframe src="country_name32.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </th>
+                    <td>
+                        <p class="center"><iframe src="total_cases32.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_cases32.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_deaths32.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_deaths32.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_recovered32.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="active_cases32.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="serious_critical32.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tot_cases_1m_pop32.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="deaths_1m_pop32.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_tests32.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tests_1m_pop32.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <p><iframe src="country_name33.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </th>
+                    <td>
+                        <p class="center"><iframe src="total_cases33.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_cases33.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_deaths33.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_deaths33.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_recovered33.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="active_cases33.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="serious_critical33.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tot_cases_1m_pop33.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="deaths_1m_pop33.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_tests33.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tests_1m_pop33.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <p class="center"><iframe src="country_name34.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </th>
+                    <td>
+                        <p class="center"><iframe src="total_cases34.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_cases34.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_deaths34.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_deaths34.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_recovered34.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="active_cases34.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="serious_critical34.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tot_cases_1m_pop34.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="deaths_1m_pop34.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_tests34.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tests_1m_pop34.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <p><iframe src="country_name35.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </th>
+                    <td>
+                        <p class="center"><iframe src="total_cases35.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_cases35.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_deaths35.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_deaths35.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_recovered35.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="active_cases35.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="serious_critical35.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tot_cases_1m_pop35.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="deaths_1m_pop35.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_tests35.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tests_1m_pop35.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <p class="center"><iframe src="country_name36.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </th>
+                    <td>
+                        <p class="center"><iframe src="total_cases36.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_cases36.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_deaths36.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_deaths36.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_recovered36.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="active_cases36.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="serious_critical36.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tot_cases_1m_pop36.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="deaths_1m_pop0.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_tests36.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tests_1m_pop36.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <p><iframe src="country_name37.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </th>
+                    <td>
+                        <p class="center"><iframe src="total_cases37.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_cases37.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_deaths37.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_deaths37.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_recovered37.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="active_cases37.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="serious_critical37.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tot_cases_1m_pop37.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="deaths_1m_pop37.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_tests37.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tests_1m_pop37.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <p class="center"><iframe src="country_name38.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </th>
+                    <td>
+                        <p class="center"><iframe src="total_cases38.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_cases38.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_deaths38.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_deaths38.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_recovered38.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="active_cases38.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="serious_critical38.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tot_cases_1m_pop38.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="deaths_1m_pop38.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_tests38.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tests_1m_pop38.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <p><iframe src="country_name39.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </th>
+                    <td>
+                        <p class="center"><iframe src="total_cases39.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_cases39.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_deaths39.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_deaths39.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_recovered39.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="active_cases39.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="serious_critical39.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tot_cases_1m_pop39.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="deaths_1m_pop39.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_tests39.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tests_1m_pop39.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <p class="center"><iframe src="country_name40.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </th>
+                    <td>
+                        <p class="center"><iframe src="total_cases40.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_cases40.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_deaths40.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="new_deaths40.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_recovered40.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="active_cases40.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="serious_critical40.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tot_cases_1m_pop40.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="deaths_1m_pop40.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="total_tests40.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                    <td>
+                        <p class="center"><iframe src="tests_1m_pop40.txt" frameborder="0" scrolling="no" height="15" marginheight="0"></iframe></p>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+
+
+    </body>
+</html>
